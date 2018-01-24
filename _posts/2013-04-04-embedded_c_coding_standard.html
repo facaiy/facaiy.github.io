@@ -1,0 +1,215 @@
+---
+layout: post
+title: "嵌入式C编程规范"
+description: ""
+category: misc
+tags: []
+modify: 2013-04-04 08:00:00
+---
+<h2 style="text-align:right;">EMBEDDED C CODING STANDARD</h2>
+<h3 style="text-align:right;">DESIGN(E) 314/414 </h3>
+<p style="text-align:right;">February 2011</p>
+<a href="http://courses.ee.sun.ac.za/Design_E_414/Handleidings/Embedded_C_Coding_Standard_V2.pdf" style="color:red;">原文在此</a>
+<p><em>yafc18@gmail.com 闲着蛋疼翻译，请指正</em></p>
+<h4 id="">花括弧{}</h4>
+<ul>
+<li>花括弧应该紧随 <code>if</code>, <code>else</code>, <code>switch</code>, <code>while</code>, <code>do</code>, <code>for</code> 语句，包围代码块。即使是一单句或者空语句也应使用</li>
+<li>左括弧应在代码块首，右括弧应在代码块末，且与左括弧保持相同缩进</li>
+</ul>
+<p>例:</p>
+<pre><code>if ((a &lt; b) &amp;&amp; (b &lt; c))
+{
+    result = (3 * a) + b;
+}
+return result;
+</code></pre>
+<h4 id="_1">括号()</h4>
+<p>不要信赖运算优先级，多使用括号</p>
+<h4 id="_2">应限制的关键词</h4>
+<p>不要使用 <code>goto</code> 和 <code>continue</code> 。除非是在 <code>switch</code> 词句中，也不要使用 <code>break</code> <br /><em style="color:green;font-size:10px;">continue 和 break 也不用，难度有点高呐</em></p>
+<h4 id="_3">应鼓励的关键词</h4>
+<p>一定要用 <code>volatile</code> 修饰中断函数会使用的全局变量</p>
+<h4 id="_4">注释</h4>
+<ul>
+<li>注释不要嵌套</li>
+<li>不要用 <code>/*...*/</code> 禁用代码，使用条件编译 <code>#if (0) ... #endif</code> <br />
+</li>
+<li>注释位于代码块前，并保持相同的缩进。并在代码块后留一空行</li>
+<li>不要解释作用显而易见的代码</li>
+</ul>
+<h4 id="_5">空格</h4>
+<ul>
+<li><code>if, else, while, for, switch, return</code> 后空一格</li>
+<li>赋值操作符 <code>=, +=, -=, *=, /=, %=, &amp;=, |=, ^=, ~=, !=</code> 前后均空一格</li>
+<li>二元操作符 <code>+, -, *, /, %, &lt;, &lt;=, &gt;, &gt;=, ==, !=, &lt;&lt;, &gt;&gt;, &amp;, &amp;&amp;, ||</code> 前后均空一格</li>
+<li>一元操作符 <code>+, -, ++, --, !, ~</code> 应紧贴操作数，并在另一端空一格</li>
+<li>指针操作符号 <code>*</code>, <code>&amp;</code> 在声明<em style="color:green;font-size:10px;">（定义呢?）</em>时前后均空一格。而使用时，紧贴操作数，并在另一端空一格</li>
+<li>数组索引时 <code>[</code>, <code>]</code> 和其包围内容间无空格</li>
+<li>括号内的表达式应紧贴左右括号</li>
+<li>函数使用时左右括号应紧贴参数，而在声明时函数名与左括号应空一格</li>
+<li>逗号后紧随一空格</li>
+<li><code>for</code> 语句中的分号后紧随一空格</li>
+<li>语句结束处紧随分号，而不应留空。</li>
+</ul>
+<h4 id="_6">空行</h4>
+<ul>
+<li>一条语句占用一行</li>
+<li>自然代码段前后均应空一行，比如循环语句，<code>if-else</code>，<code>switch</code> 和连续声明/定义区</li>
+</ul>
+<h4 id="_7">缩进</h4>
+<ul>
+<li>每级缩进3个空格   <em style="color:green;font-size:10px;">个人表示，偏好4个</em></li>
+<li>不要使用制表符缩进，除非编辑器支持将其自动替换成空格</li>
+<li><code>switch</code> 语句内部， <code>case</code> 应缩进一级，同时其下内容再缩进一级</li>
+<li>语句过长超出一行时，其后内容应缩进至适合阅读处</li>
+<li>使用等宽字体</li>
+</ul>
+    <p>例:</p>
+<pre><code>sys_error_handler(int error)
+{
+    switch (err)
+    {
+        case ERR_ONE:
+            ………;
+            ………;
+            break;
+        default:
+            ………;
+            ………;
+            break;
+    }
+    if ((very_long_comparison_here
+                &amp;&amp; second very_long_comparison_here)
+            || third very_very_long_comparison_here)
+    {
+        ………;
+        ………;
+    }
+}
+</code></pre>
+<h4 id="_8">制表符</h4>
+<p>不要使用它</p>
+<h4 id="_9">模块</h4>
+<ul>
+<li>模块名应由小写字母，数字和下划线组成</li>
+<li>模块名间保证前8个字符惟一</li>
+<li>模块名中不要包含标准库名，如 <code>stdio</code> 或者 <code>math</code> </li>
+<li>含有 <code>main</code> 函数的模块名中应含有 main 字样</li>
+</ul>
+<h4 id="_10">头文件</h4>
+<ul>
+<li>每个源文件应有对应的头文件</li>
+<li>头文件应该只含有对外服务的函数声明，常数和数据结构</li>
+<li>不要在头文件中定义变量，使用声明 </li>
+<li>不要在头文件中使用 <code>#include</code> </li>
+</ul>
+<h4 id="_11">源文件</h4>
+<ul>
+<li>源文件结构: <br />
+说明，<code>#include</code>语句，数据结构和常量声明，静态数据定义，私有函数声明，公共函数体，私有函数体</li>
+<li>源文件应包含对应的头文件</li>
+<li>不要引用未使用的头文件</li>
+<li>不要引用其它源文件</li>
+</ul>
+<h4 id="_12">函数</h4>
+<ul>
+<li>程序名不要包含限定词，如: <code>interrupt, inline, true</code></li>
+<li>程序名不要使用大写字母</li>
+<li>程序名使用下划线连接单词</li>
+<li>程序名用于描述其作用：使用"名词-动词"结构（如<code>adc_read()</code>），或者问答方式（如<code>input_is_high()</code>）</li>
+<li>公开函数应带有模块的前缀, 如 <code>display_lcd_init(), display_led_is_on()</code></li>
+<li>函数体代码长度应限制在100行内</li>
+<li>函数应只在结尾处有惟一出口，就是说，<code>return</code>只出现一次 <em style="color:green;font-size:10px;">表示很难呢</em></li>
+<li>参数名要表示清楚其意义</li>
+</ul>
+<h4 id="_13">变量与常量</h4>
+<ul>
+<li>变量名不要包含限定词</li>
+<li>变量名不要使用大写字母</li>
+<li>变量名使用下划线连接单词</li>
+<li>变量名用于描述其作用</li>
+<li>全局变量使用字母 <code>g</code> 前缀，如: <code>g_zero_offset</code> </li>
+<li>指针使用字母 <code>p</code> 前缀，如: <code>*p_led_reg</code></li>
+<li>布尔值使用字母 <code>b</code> 前缀，如某个全局布尔变量: <code>gb_is_buffer_full</code></li>
+<li>使用 <code>#define</code> 代替神奇数字（magic number），常量用大写。多个源文件要使用时，包含在头文件中</li>
+</ul>
+<p>例:</p>
+<pre><code>#define MAX_LOOPS 10 int loop;
+for (loop = 0; loop &lt; MAX_LOOPS; loop++)
+{
+    ……;
+}
+</code></pre>
+<h4 id="_14">变量定义</h4>
+<p>不要将指针和其它变量放在同行。如：</p>
+<pre><code>char * x, y; // No
+char * x; // Yes
+char y; // Yes
+</code></pre>
+<h4 id="if-else">if-Else 语句</h4>
+<ul>
+<li><code>if-else-if</code> 中最短子句放最前</li>
+<li><code>if-else</code> 嵌套不要超过两层</li>
+<li><code>if</code> 语句中嵌套 <code>if-else</code> 子句时必须用 <code>else</code> 结尾</li>
+<li>变量与常量比较时，常量放在左边 <em style="color:green;font-size:10px;">经典写法</em></li>
+</ul>
+    <p>例：</p>
+<pre><code>if (ON == power_supply) // “if (ON = power_supply)” will result in an error
+    // message, but not “if (power_supply = ON)”.
+{
+    ……; // Placing the shorter clause here and the longer
+    // clause last will make the logic easier to follow.
+}
+else if (OFF == power_led)
+{
+    ……;
+}
+else //similar to “default ” in a switch statement
+{
+    ……;
+    ……;
+    ……;
+    ……;
+}
+</code></pre>
+<h4 id="switch">Switch 语句</h4>
+<ul>
+<li><code>break</code> 应和相应的 <code>case</code> 对齐</li>
+<li>必须有 <code>default</code> 代码块</li>
+</ul>
+    <p>例:</p>
+<pre><code>switch (err)
+{
+    case ERR_A:
+        ………;
+        break;
+    case ERR_B:
+        ………;
+        break;
+    default:
+        ………;
+        break;
+}
+</code></pre>
+<h4 id="_15">循环</h4>
+<ul>
+<li>使用常量控制深度，而非神奇数字</li>
+</ul>
+<p>例:</p>
+<pre><code>for (int loop = 0; loop &lt; MAX_LOOPS; loop++) //constants should be in capitals
+{
+    ……;
+}
+</code></pre>
+<ul>
+<li>死循环使用 <br />
+<code>while(1);</code> <br />
+或者 <br />
+<code>for(;;);</code> <br />
+</li>
+</ul>
+<hr />
+<p>Most of the recommendations listed in this document are from: Netrino Embedded C Coding Standard </p>
+<h4 id="reference">Reference</h4>
+<p>This document and the information it contains is Copyright © 2009 Netrino, LLC (www.netrino.com). It is allowable for individuals, companies and institutions to adopt all or some of the coding rules herein, indeed we hope many will, This may be done simply by identifying the Netrino Embedded C Coding Standard, and retaining this paragraph in its entirety. All other rights are reserved by Netrino, LLC. </p>
+
