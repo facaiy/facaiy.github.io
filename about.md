@@ -4,9 +4,9 @@ title: 简介
 permalink: /about/
 ---
 
-我是个工科生。
+我是个工科生，程序猿。
 
-最近反思自己学习体会，始终有「纸上得来方觉浅」的感受，所以迫切地明白「觉知此事要躬行」。故打算将学习所得整理汇集于博客，有所输入，则必有所输出。
+最近反思自己学习体会，始终有「纸上得来方觉浅」的感受，迫切地「觉知此事要躬行」。故打算将学习所得整理汇集于博客，有所输入，则必有所输出。
 
 准备分为两大类:
 
@@ -28,7 +28,7 @@ permalink: /about/
 
 1. [开源贡献](https://www.openhub.net/accounts/facaiy)：
    + [apache/spark](https://github.com/apache/spark): 2.0 - 2.3;
-   + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4;
+   + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.6;
    + [fchollet/keras](https://github.com/fchollet/keras): 2.0;
    + [Tencent/angel](https://github.com/Tencent/angel): 1.1;
    + [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn): 0.18;
