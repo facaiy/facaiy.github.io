@@ -4,10 +4,10 @@ title: "笔记：Deep Learning"
 description: ""
 category: tech
 tags: []
-modify: 2018-01-22 10:02:28
+modify: 2018-02-27 20:27:29
 ---
 
-update: 2018-01-22
+update: 2018-02-27
 
 
 最近在用tensorflow做深度学习方面的工作，总有「书到用时方恨少」之感。虽然研究生时上过两门相关课程，但均是浅尝辙止。这回和冬博士讨教，他推荐了[Deep Learning](http://www.deeplearningbook.org)这本书，于是打算认真研读下。
@@ -43,7 +43,7 @@ update: 2018-01-22
 
 ##### [11 Practical Methodology](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/deep_learning/Practial_Methodology/note.ipynb)
 
-##### 12 Applications
+##### [12 Applications](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/deep_learning/Application/note.ipynb)
 
 #### Part III: Deep Learning Research
 
