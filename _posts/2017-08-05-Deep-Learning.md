@@ -4,10 +4,10 @@ title: "笔记：Deep Learning"
 description: ""
 category: tech
 tags: []
-modify: 2018-02-27 20:27:29
+modify: 2018-03-05 08:59:26
 ---
 
-update: 2018-02-27
+update: 2018-03-05
 
 
 最近在用tensorflow做深度学习方面的工作，总有「书到用时方恨少」之感。虽然研究生时上过两门相关课程，但均是浅尝辙止。这回和冬博士讨教，他推荐了[Deep Learning](http://www.deeplearningbook.org)这本书，于是打算认真研读下。
@@ -65,3 +65,7 @@ update: 2018-02-27
 
 
 ### 后记
+
+结果花了近六个月，断断续续看完第二部份，主要都是深度学习的基础知识。第三部份内容太专，我现在用不上，打算暂且搁置，将来需要再回来补上。
+
+此书内容清晰明了，确实是本入门好书。另外，结合Standford的课程[CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)一起看，食用效果更佳。
