@@ -18,6 +18,8 @@ update: 2017-06-08
 
 如果不满足，它有本姊妹版[The Elements of Statistical Learning: Data Mining, Inference, and Prediction](http://statweb.stanford.edu/~tibs/ElemStatLearn/)，注重数理，难度很高。适合喜欢挑战的朋友。
 
+如果是深度学习，入门可以看[斯坦福2017季CS231n深度视觉识别课程视频](https://www.bilibili.com/video/av13260183/)，讲得很好，清晰明了。也可以读[Deep Learning](http://www.deeplearningbook.org/)，深入浅出，比较容易读懂，[非官方PDF版](https://github.com/janishar/mit-deep-learning-book-pdf)。
+
 
 ### B. 必备工具
 

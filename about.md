@@ -27,8 +27,8 @@ permalink: /about/
 #### 附录
 
 1. [开源贡献](https://www.openhub.net/accounts/facaiy)：
+   + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.8;
    + [apache/spark](https://github.com/apache/spark): 2.0 - 2.3;
-   + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.6;
    + [fchollet/keras](https://github.com/fchollet/keras): 2.0;
    + [Tencent/angel](https://github.com/Tencent/angel): 1.1;
    + [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn): 0.18;
