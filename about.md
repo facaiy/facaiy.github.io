@@ -19,7 +19,7 @@ permalink: /about/
 
 + 职业 - [LinkedIn (领英)](https://www.linkedin.com/in/facaiy)
 + 生活 - [豆瓣](https://www.douban.com/people/facaiy/)，[知乎](https://www.zhihu.com/people/banyuan/)
-+ 摄影 - [Flickr](https://www.flickr.com/photos/ningchi/) (主站)，[500px](https://500px.me/facai) (辅站，国内可访问)
++ 摄影 - [Flickr](https://www.flickr.com/photos/facaiy/) (主站)，[500px](https://500px.me/facai) (辅站，国内可访问)
 
 
 <br/>
