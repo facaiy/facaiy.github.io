@@ -21,6 +21,7 @@ update: 2018-05-22
   - [TensorFlow 梯度函数](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/tensorflow_code/gradient/op_gradient_calculation.ipynb)
   - [tf.train.Optimizer - 优化器模块简介](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/tensorflow_code/optimizer/note.ipynb)
 + 图构建
+  - [TensorFlow图相关知识简介](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/tensorflow_code/graph/intro.ipynb)
 + Eigen
 + GPU
 
