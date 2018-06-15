@@ -4,10 +4,10 @@ title: "笔记：Reinforcement Learning"
 description: ""
 category: tech
 tags: []
-modify: 2018-03-07 08:59:11
+modify: 2018-06-15 10:29:26
 ---
 
-update: 2018-03-07
+update: 2018-06-15
 
 
 最近在接触超参自动调优工作，未来有可能用到增强学习的内容，所以打算提前储备下相关知识。正好阔姐推荐了
@@ -23,7 +23,7 @@ update: 2018-03-07
 
 #### I Tabular Solution Methods
 
-##### 2 Multi-armed Bandits
+##### [2 Multi-armed Bandits](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/Multi-armed_Bandits/note.ipynb)
 
 ##### 3 Finite Markov Decision Processes
 
