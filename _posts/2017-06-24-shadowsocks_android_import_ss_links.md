@@ -12,14 +12,13 @@ update: 2017-06-25
 
 最近手腕有些不适，医生说是肌肉疲劳，建议多休息，于是周末宅住处。不太敢用电脑，可闲不住呐，就折腾了些脚本，均放在[这里](https://github.com/facaiy/facai-tools/tree/master/script/vpnso)，以供下载。
 
-Shadowsocks-android
---------
+### A. Shadowsocks-android
 
-### 起因
+#### 0.0 起因
 
 需求是这样产生的。我使用的科学上网提供商只有两种配置，一种是json文件，它有全部IP的配置信息，但shadowsocks不支持批量导入；另一种是毎IP有对应QR码，分别扫码导入。但是，我想要更简单点，一键导入全部配置。作为一只程序猿，别人不支持，咱就自己捋袖子开干。
 
-### 过程
+#### 0.1 过程
 
 Shadowsocks-android唯一能批量导入的功能是「从剪贴板导入」(Import from Clipboard)。查看它导入导出，使用的是私有ss协议，形如`ss://abcdx#jp`，看上去是对数据做了个简单的编码。因为代码是开源的，就去官方扒。   
 版本如下：`commit 095f4831db806d55f164e52a6164cd92a5919339`
@@ -63,7 +62,7 @@ def findAll(data: CharSequence): Iterator[Profile] =
 
 思路就简单了，读json文件，提取出相关数据进行编码，得到全部ss链接，全部复制，导入完成。
 
-### 结果
+#### 0.2 结果
 
 Python脚本非常简单，如下：
 
@@ -134,8 +133,12 @@ rm $TMPDATA $TMPFILTER
 
 <br/>
 
-ShadowsocksX, Mac
---------
+### B. ShadowsocksX, Mac
+
+更新：2018-07-07: 使用ShadowsocksX-NG，已经支持全局配置导入导出。
+
+<br/>
+
 
 参考：[OS X下如何导入gui-config.json](https://github.com/shadowsocks/shadowsocks-iOS/issues/150)
 
