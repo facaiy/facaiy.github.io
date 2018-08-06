@@ -4,10 +4,10 @@ title: "笔记：Reinforcement Learning"
 description: ""
 category: tech
 tags: []
-modify: 2018-07-26 15:19:08
+modify: 2018-08-06 10:05:03
 ---
 
-update: 2018-07-26
+update: 2018-08-06
 
 
 最近在接触超参自动调优工作，未来有可能用到增强学习的内容，所以打算提前储备下相关知识。正好阔姐推荐了
@@ -27,7 +27,7 @@ update: 2018-07-26
 
 ##### [3 Finite Markov Decision Processes](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/Finite_Markov_Decision_Processes/note.ipynb)
 
-##### 4 Dynamic Programming
+##### [4 Dynamic Programming](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/Dynamic_Programming/note.ipynb)
 
 ##### 5 Monte Carlo Methods
 
