@@ -4,10 +4,10 @@ title: "笔记：Reinforcement Learning"
 description: ""
 category: tech
 tags: []
-modify: 2018-08-06 10:05:03
+modify: 2018-08-14 09:48:30
 ---
 
-update: 2018-08-06
+update: 2018-08-14
 
 
 最近在接触超参自动调优工作，未来有可能用到增强学习的内容，所以打算提前储备下相关知识。正好阔姐推荐了
@@ -29,7 +29,7 @@ update: 2018-08-06
 
 ##### [4 Dynamic Programming](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/Dynamic_Programming/note.ipynb)
 
-##### 5 Monte Carlo Methods
+##### [5 Monte Carlo Methods](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/Monte_Carlo_Methods/note.ipynb)
 
 ##### 6 Temporal-Difference Learning
 
