@@ -18,8 +18,8 @@ permalink: /about/
 联系我：
 
 + 职业 - [LinkedIn (领英)](https://www.linkedin.com/in/facaiy)
-+ 生活 - [豆瓣](https://www.douban.com/people/facaiy/)，[知乎](https://www.zhihu.com/people/banyuan/)
-+ 摄影 - [Flickr](https://www.flickr.com/photos/facaiy/) (主站)，[500px](https://500px.me/facai) (辅站，国内可访问)
++ 生活 - [豆瓣](https://www.douban.com/people/facaiy/)，[知乎](https://www.zhihu.com/people/facaiy/)
++ 摄影 - [Flickr](https://www.flickr.com/photos/facaiy/) (主站)，[500px](https://500px.me/facaiy) (辅站，国内可访问)
 
 
 <br/>
@@ -27,7 +27,7 @@ permalink: /about/
 #### 附录
 
 1. [开源贡献](https://www.openhub.net/accounts/facaiy)：
-   + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.9;
+   + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.10;
    + [apache/spark](https://github.com/apache/spark): 2.0 - 2.3;
    + [eigen/eigen](https://bitbucket.org/eigen/eigen): 3.3
    + [ray-tune](https://github.com/ray-project/ray): 0.5
