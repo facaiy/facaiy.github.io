@@ -4,10 +4,10 @@ title: "笔记：Reinforcement Learning"
 description: ""
 category: tech
 tags: []
-modify: 2018-08-24 10:27:40
+modify: 2018-08-28 10:36:30
 ---
 
-update: 2018-08-24
+update: 2018-08-28
 
 
 最近在接触超参自动调优工作，未来有可能用到增强学习的内容，所以打算提前储备下相关知识。正好阔姐推荐了
@@ -33,7 +33,7 @@ update: 2018-08-24
 
 ##### [6 Temporal-Difference Learning](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/Temporal_Difference_Learning/note.ipynb)
 
-##### 7 n-step Bootstrapping
+##### [7 n-step Bootstrapping](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/n_step_bootstrapping/note.ipynb)
 
 ##### 8 Planning and Learning with Tabular Methods
 
