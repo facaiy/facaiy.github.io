@@ -4,10 +4,10 @@ title: "笔记：Reinforcement Learning"
 description: ""
 category: tech
 tags: []
-modify: 2018-08-28 10:36:30
+modify: 2018-09-16 22:09:09
 ---
 
-update: 2018-08-28
+update: 2018-09-16
 
 
 最近在接触超参自动调优工作，未来有可能用到增强学习的内容，所以打算提前储备下相关知识。正好阔姐推荐了
@@ -35,7 +35,7 @@ update: 2018-08-28
 
 ##### [7 n-step Bootstrapping](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/n_step_bootstrapping/note.ipynb)
 
-##### 8 Planning and Learning with Tabular Methods
+##### [8 Planning and Learning with Tabular Methods](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/Planning_and_Learning_with_Tabular/note.ipynb)
 
 #### II Approximate Solution Methods
 
