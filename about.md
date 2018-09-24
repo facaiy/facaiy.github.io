@@ -20,6 +20,7 @@ permalink: /about/
 + 职业 - [LinkedIn (领英)](https://www.linkedin.com/in/facaiy)
 + 生活 - [豆瓣](https://www.douban.com/people/facaiy/)，[知乎](https://www.zhihu.com/people/facaiy/)
 + 摄影 - [Flickr](https://www.flickr.com/photos/facaiy/) (主站)，[500px](https://500px.me/facaiy) (辅站，国内可访问)
++ 口琴 - [bilibili](https://www.bilibili.com/audio/am28311305)
 
 
 <br/>
