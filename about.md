@@ -28,7 +28,7 @@ permalink: /about/
 #### 附录
 
 1. [开源贡献](https://www.openhub.net/accounts/facaiy)：
-   + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.10;
+   + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.12;
    + [apache/spark](https://github.com/apache/spark): 2.0 - 2.3;
    + [eigen/eigen](https://bitbucket.org/eigen/eigen): 3.3
    + [ray-tune](https://github.com/ray-project/ray): 0.5
@@ -37,6 +37,6 @@ permalink: /about/
    + [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn): 0.18;
    + [pandas-dev/pandas](https://github.com/pandas-dev/pandas): 0.18 - 0.19;
 2. 会议与讲演：
-   + 2017-10，超大规模机器学习在EMR的实践（协作者，受邀请方），2017杭州云栖大会，阿里巴巴。
-   + 2017-05，基于Spark的大规模机器学习在微博的应用（协作者，受邀请方），中国云计算大会，CCTC。
-   + 2017-03，树模型的进化之路（演讲者），机器学习研发大部门，新浪微博。
+   + 2017-10，超大规模机器学习在EMR的实践（协作者），2017杭州云栖大会，阿里巴巴。
+   + 2017-05，基于Spark的大规模机器学习在微博的应用（协作者），中国云计算大会，CCTC。
+   + 2017-03，[树模型的进化之路](/assets/ml_tree/GBDT_TreeBoost_XGBoost_facaiy.pdf)，机器学习研发部门，新浪微博。
