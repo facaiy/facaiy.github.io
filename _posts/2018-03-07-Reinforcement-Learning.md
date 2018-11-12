@@ -4,10 +4,10 @@ title: "笔记：Reinforcement Learning"
 description: ""
 category: tech
 tags: []
-modify: 2018-09-16 22:09:09
+modify: 2018-11-12 10:35:44
 ---
 
-update: 2018-09-16
+update: 2018-11-12
 
 
 最近在接触超参自动调优工作，未来有可能用到增强学习的内容，所以打算提前储备下相关知识。正好阔姐推荐了
@@ -39,7 +39,7 @@ update: 2018-09-16
 
 #### II Approximate Solution Methods
 
-##### 9 On-policy Prediction with Approximation
+##### [9 On-policy Prediction with Approximation](http://nbviewer.jupyter.org/github/facaiy/book_notes/blob/master/Reinforcement_Learing_An_Introduction/On-policy_Prediction_with_Approximation/note.ipynb)
 
 ##### 10 On-policy Control with Approximation
 
