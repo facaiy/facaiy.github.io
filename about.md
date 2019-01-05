@@ -37,7 +37,7 @@ permalink: /about/
    + [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn): 0.18;
    + [pandas-dev/pandas](https://github.com/pandas-dev/pandas): 0.18 - 0.19;
 2. 会议与讲演：
-   + 2018-10，[TensorFlow 2.0规划信息汇总](/assets/meeting/tf_2_0_info.pdf)，计算平台事业部，阿里巴巴。
+   + 2018-10，[TensorFlow 2.0规划](/assets/meeting/tf_2_0_info.pdf)，计算平台事业部，阿里巴巴。
    + 2017-10，超大规模机器学习在EMR的实践（协作者），杭州云栖大会，阿里巴巴。
    + 2017-05，基于Spark的大规模机器学习在微博的应用（协作者），中国云计算大会，CCTC。
    + 2017-03，[树模型的进化之路](/assets/ml_tree/GBDT_TreeBoost_XGBoost_facaiy.pdf)，机器学习研发部门，新浪微博。
