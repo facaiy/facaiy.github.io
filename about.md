@@ -29,7 +29,7 @@ permalink: /about/
 
 1. [开源贡献](https://www.openhub.net/accounts/facaiy)：
    + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.13;
-   + [tensorflow/addons](https://github.com/tensorflow/addons): 0.1.0;
+   + [tensorflow/addons](https://github.com/tensorflow/addons): 0.1 - 0.2;
    + [apache/spark](https://github.com/apache/spark): 2.0 - 2.3;
    + [eigen/eigen](https://bitbucket.org/eigen/eigen): 3.3
    + [ray-tune](https://github.com/ray-project/ray): 0.5
