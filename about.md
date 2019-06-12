@@ -29,7 +29,7 @@ permalink: /about/
 
 1. [开源贡献](https://www.openhub.net/accounts/facaiy)：
    + [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow): 1.4 - 1.13;
-   + [tensorflow/addons](https://github.com/tensorflow/addons): 0.1 - 0.2;
+   + [tensorflow/addons](https://github.com/tensorflow/addons): 0.1 - 0.3;
    + [apache/spark](https://github.com/apache/spark): 2.0 - 2.3;
    + [eigen/eigen](https://bitbucket.org/eigen/eigen): 3.3
    + [ray-tune](https://github.com/ray-project/ray): 0.5
@@ -38,6 +38,7 @@ permalink: /about/
    + [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn): 0.18;
    + [pandas-dev/pandas](https://github.com/pandas-dev/pandas): 0.18 - 0.19;
 2. 会议与讲演：
+   + 2019-06，AutoML综述：超参优化方向算法简介，安全部，阿里巴巴。
    + 2018-10，[TensorFlow 2.0规划](/assets/meeting/tf_2_0_info.pdf)，计算平台事业部，阿里巴巴。
    + 2017-10，超大规模机器学习在EMR的实践（协作者），杭州云栖大会，阿里巴巴。
    + 2017-05，基于Spark的大规模机器学习在微博的应用（协作者），中国云计算大会，CCTC。
