@@ -37,6 +37,12 @@ permalink: /about/
    + [Tencent/angel](https://github.com/Tencent/angel): 1.1;
    + [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn): 0.18;
    + [pandas-dev/pandas](https://github.com/pandas-dev/pandas): 0.18 - 0.19;
+
+   <a href="https://sourcerer.io/facaiy"><img src="https://img.shields.io/badge/Python-144%20commits-red.svg" alt=""></a>
+   <a href="https://sourcerer.io/facaiy"><img src="https://img.shields.io/badge/Scala-74%20commits-orange.svg" alt=""></a>
+   <a href="https://sourcerer.io/facaiy"><img src="https://img.shields.io/badge/C++-20%20commits-blue.svg" alt=""></a>
+   <a href="https://sourcerer.io/facaiy"><img src="https://img.shields.io/badge/TeX-35%20commits-green.svg" alt=""></a>
+   <a href="https://sourcerer.io/facaiy"><img src="https://img.shields.io/badge/Shell-23%20commits-green.svg" alt=""></a>
 2. 会议与讲演：
    + 2019-06，AutoML综述：超参优化方向算法简介，安全部，阿里巴巴。
    + 2018-10，[TensorFlow 2.0规划](/assets/meeting/tf_2_0_info.pdf)，计算平台事业部，阿里巴巴。
