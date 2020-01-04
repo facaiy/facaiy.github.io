@@ -3,7 +3,31 @@ layout: page
 title: 推荐
 ---
 
-update: 2019-01-01
+update: 2020-01-04
+
+### 2019
++ 博客: N/A
++ 动漫/电影
+  - [逃避虽可耻但有用](https://movie.douban.com/subject/26816519/)：三观正
+  - [非自然死亡](https://movie.douban.com/subject/27140017/)：剧情精巧，深度略有欠缺
+  - [梦塔·雪谜城](https://movie.douban.com/subject/30211741/)、[灵笼](https://movie.douban.com/subject/27121260/)、[武动乾坤](https://movie.douban.com/subject/30223578/)：国漫加油，剧情深度有待提高
++ 书籍
+  - [围城](https://book.douban.com/subject/1069848/)：惊且骇
+  - [当尼采哭泣](https://book.douban.com/subject/5940553/)：人心的坚强
++ 乐曲/音乐人
+  - [River Flows In You - Yiruma](https://music.douban.com/subject/26300278/)
++ 媒体/专栏/课程:
+  - [睡前消息](https://space.bilibili.com/54992199/channel/detail?cid=82529)：和督公学思辩逻辑，钢铁直男
+  - [八方論談](https://www.network360.tv/#!/home)：付费，华语时政访谈
+  - [寰宇全視界](https://www.youtube.com/channel/UCiOR3zQCU-tLza5g1MuqABA)：台湾媒体，华语时政
+  - [李子柒](https://space.bilibili.com/19577966?from=search&seid=16494751538874685426)：李家有女，人称子柒
++ 应用/服务
+  - [v2rayNG](https://play.google.com/store/apps/details?id=com.v2ray.ang&hl=en_US)：科学上网
+  - [Visual Timer - Countdown](https://play.google.com/store/apps/details?id=at.cwiesner.android.visualtimer&hl=en_US)：简洁计时器
+  - [PhotoTime: Golden Hour, Blue Hour Calc Light](https://play.google.com/store/apps/details?id=pl.guteklabs.phototime&hl=en_US)：日出日落信息
+  - [飞书](https://www.feishu.cn/)：不吹不黑，文档协作实用高效
+  - [涨乐财富通](https://www.htsc.com.cn/htzq/index/index.jsp)：证券工具（国内）
+  - [富途牛牛](https://www.futunn.com/)：证券工具（海外）
 
 
 ### 2018
