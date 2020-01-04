@@ -41,7 +41,7 @@ brew update
 
 + Git: `brew install git`
 
-+ VIM: `brew install vim --with-lua`
++ VIM: `brew install vim`
   - 安装VIM包管理器：[VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim)，根据使用说明，安装全部插件。
 
 + 终端: `brew cask install iterm2`
@@ -54,18 +54,14 @@ brew update
 
 ### 基础环境
 
-+ 切换Shell: 从默认Bash切换到Zsh，下载安装[prezto](https://github.com/sorin-ionescu/prezto)
++ 切换Shell: 
+  - `brew install zsh`
+  - 从默认Bash切换到Zsh，下载安装[prezto](https://github.com/sorin-ionescu/prezto)
 
 + 安装Python: [anaconda](https://www.anaconda.com/)发行版
 
 ```bash
 brew cask install anaconda
-```
-
-+ 安装Java8:
-
-```bash
-brew install caskroom/versions/java8
 ```
 
 
@@ -80,9 +76,6 @@ brew install caskroom/versions/java8
 # 快速跳转：j键
 brew install autojump
 
-# 统一命令行和X剪贴板，见Tmux配置：
-brew install reattach-user-namespace
-
 # 命令速查表
 brew install tldr
 ```
@@ -94,7 +87,7 @@ brew install tldr
 + 笔记应用：evernote: `brew cask install evernote`
 
 + 浏览器：
-  1. 安装Firefox-ESL: `brew install caskroom/versions/firefox-esr`
+  1. 安装Firefox: `brew cask install firefox`
   2. 常用扩展：
      + Adblock Plus: 广告屏蔽
      + Nightly Tester Tools: 强制兼容
@@ -124,7 +117,9 @@ brew install tldr
   - 安装IdeaVim
 + Java/Scala IDE: `brew cask install intellij-idea-ce`
   - 安装IdeaVim
-+ C++: `brew cask install visual-studio-code`
++ C++: 
+  - `brew cask install clion`
+  - 或者：`brew cask install visual-studio-code`
 
 
 ### 其他
@@ -144,7 +139,7 @@ brew install tldr
    - `brew cask install progressive-downloader`
    - `brew install aria2`
 
-+ 科学上网：`brew cask install shadowsocksx-ng`
++ 科学上网：`brew cask install v2rayu`
 
 <br/>
 <br/>
