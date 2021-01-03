@@ -3,7 +3,33 @@ layout: page
 title: 推荐
 ---
 
-update: 2020-01-04
+update: 2021-01-03
+
+### 2020
++ 博客: N/A
++ 动漫/电影
+  - [雾山五行](https://movie.douban.com/subject/30395914/)：国产打戏
+  - [是，首相(Yes, Prime Minister)](https://movie.douban.com/subject/1441948/)：历久弥新的政治讽刺剧
++ 纪录片/综艺
+  - [空中浩劫(Mayday Season)](https://movie.douban.com/subject/3148994/)：安全是由血泪堆叠的
+  - [舞蹈风暴](https://movie.douban.com/subject/35072850/)：古典舞
++ 书籍
+  - [中国为什么有前途](https://book.douban.com/subject/34441120/)：大开眼界，发人深思
+  - [论中国](https://book.douban.com/subject/19920715/)：不胜唏嘘，波滔汹涌的历史
+  - [邓小平时代](https://book.douban.com/subject/20424526/)：大道之行也
++ 乐曲/音乐人：
+  - [岩石里的花(Love Finds a Way)](https://music.apple.com/cn/album/love-finds-a-way/1445400716?i=1445400834&l=en)：恰好听到
++ 媒体/专栏/课程:
+  - [温铁军践闻录](https://space.bilibili.com/679619486/)：三农问题专家
+  - [翟东升老师](https://space.bilibili.com/596299260/)：经济必读
+  - [罗翔说刑法](https://space.bilibili.com/517327498/)：赚钱秘技都在这里
++ 应用/服务
+  - [薄荷记账(Sprouts)](https://appgallery.huawei.com/#/app/C100256447)：简单方便、国产
+  - [番茄ToDo](https://appgallery.huawei.com/#/app/C10461511)：起床睡觉打卡，自习室联动
+  - [苹果音乐:Apple Music](https://appgallery.huawei.com/#/app/C10385623)：古典乐挺多
+
+<br />
+<br />
 
 ### 2019
 + 博客: N/A
