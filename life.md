@@ -10,7 +10,7 @@ permalink: /life/
 
   <ul class="post-list">
   {% assign posts_by_modify = site.categories.life | sort:'modify' | reverse %}
-    {% for post in posts_by_modify%}
+    {% for post in posts_by_modify %}
       <li>
         <span class="post-meta">{{ post.modify | date: "%b %-d, %Y" }}</span>
 
