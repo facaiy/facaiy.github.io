@@ -14,7 +14,7 @@ update: 2017-06-08
 
 ### A. 书籍
 
-入门书籍强烈推荐[An Introduction to Statistical Learning with Application in R](http://www-bcf.usc.edu/~gareth/ISL/data.html)。概览目前常用的机器学习算法，一本足矣。唯一的遗憾是这本书都是R代码，建议最好给合Python机器学习库[scikit-learn: User Guide](http://scikit-learn.org/stable/user_guide.html)，边学边试。
+入门书籍强烈推荐[An Introduction to Statistical Learning with Application in R](https://www.statlearning.com/)。概览目前常用的机器学习算法，一本足矣。唯一的遗憾是这本书都是R代码，建议最好给合Python机器学习库[scikit-learn: User Guide](http://scikit-learn.org/stable/user_guide.html)，边学边试。
 
 如果不满足，它有本姊妹版[The Elements of Statistical Learning: Data Mining, Inference, and Prediction](http://statweb.stanford.edu/~tibs/ElemStatLearn/)，注重数理，难度很高。适合喜欢挑战的朋友。
 
